@@ -34,6 +34,7 @@ auto elem_mat( const tetrahedron<gorder> &T )
     return A;
 }
 
+
 // TODO: define a typedef for element vectors, this is getting quite long.
 template <size_t gorder, size_t aorder>
 auto elem_vec( const tetrahedron<gorder> &T, const grid_function<real,gorder,aorder> &f_grid )
